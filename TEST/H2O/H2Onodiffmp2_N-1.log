@@ -1,0 +1,316 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /opt/g16/l1.exe "/scratch/1496/Gau-452183.inp" -scrdir="/scratch/1496/"
+ Entering Link 1 = /opt/g16/l1.exe PID=    452184.
+  
+ Copyright (c) 1988-2017, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision B.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevB.01 20-Dec-2017
+                 4-Feb-2021 
+ ******************************************
+ %chk=H2Onodiffmp2_N-1.chk
+ %mem=32GB
+ %nprocshared=16
+ Will use up to   16 processors via shared memory.
+ -----------------------------------------
+ # UMP2/6-31g(d) NoSymm 5D Density=Current
+ -----------------------------------------
+ 1/30=1,38=1,172=1/1;
+ 2/12=2,15=1,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=1,8=1,11=2,25=1,30=1,71=1,116=2/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 8/6=4,10=2/1;
+ 9/15=1,16=-3/6;
+ 10/5=1,13=10,31=1/2;
+ 6/7=2,8=2,9=2,10=2,22=-1/1;
+ 99/5=1,9=1/99;
+ ----------------------------------------------------------------------
+ Calculo de punto sencillo de H2O^+1 a nivel de teoria UMP2/6-31G(d), o
+ ptimizada geometricamente a nivel de teoria B3LYP/6-311G(d,p)
+ ----------------------------------------------------------------------
+ Symbolic Z-matrix:
+ Charge =  1 Multiplicity = 2
+ O                     0.        0.        0.11867 
+ H                     0.        0.75694  -0.47466 
+ H                     0.       -0.75694  -0.47466 
+ 
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.118665
+      2          1           0        0.000000    0.756944   -0.474661
+      3          1           0        0.000000   -0.756944   -0.474661
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.961769   0.000000
+     3  H    0.961769   1.513888   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O(1+,2)
+ Framework group  C2V[C2(O),SGV(H2)]
+ Deg. of freedom     2
+ Full point group                 C2V     NOp   4
+ Rotational constants (GHZ):         801.9747679         437.5972249         283.1154099
+ Standard basis: 6-31G(d) (5D, 7F)
+    18 basis functions,    36 primitive gaussians,    19 cartesian basis functions
+     5 alpha electrons        4 beta electrons
+       nuclear repulsion energy         9.1529448664 Hartrees.
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    18 RedAO= T EigKep=  6.30D-02  NBF=    18
+ NBsUse=    18 1.00D-06 EigRej= -1.00D+00 NBFU=    18
+ ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  205 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Initial guess <Sx>= 0.0000 <Sy>= 0.0000 <Sz>= 0.5000 <S**2>= 0.7500 S= 0.5000
+ Keep R1 and R2 ints in memory in canonical form, NReq=3319220.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(UHF) =  -75.6106818549     A.U. after   11 cycles
+            NFock= 11  Conv=0.70D-08     -V/T= 1.9990
+ <Sx>= 0.0000 <Sy>= 0.0000 <Sz>= 0.5000 <S**2>= 0.7567 S= 0.5033
+ <L.S>=  0.00000000000    
+ Annihilation of the first spin contaminant:
+ S**2 before annihilation     0.7567,   after     0.7500
+ ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV=-2 UseB2=F ITyADJ=14
+ ICtDFT= 12500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ Range of M.O.s used for correlation:     2    18
+ NBasis=    18 NAE=     5 NBE=     4 NFC=     1 NFV=     0
+ NROrb=     17 NOA=     4 NOB=     3 NVA=    13 NVB=    14
+ Fully in-core method, ICMem=     6183239.
+ JobTyp=2 Pass  1 fully in-core, NPsUse= 16.
+ JobTyp=3 Pass  1 fully in-core, NPsUse= 16.
+ Spin components of T(2) and E(2):
+     alpha-alpha T2 =       0.5325941309D-02 E2=     -0.2182768450D-01
+     alpha-beta  T2 =       0.2622089032D-01 E2=     -0.1035836915D+00
+     beta-beta   T2 =       0.2564434436D-02 E2=     -0.1026196642D-01
+ (S**2,0)=  0.75668D+00           (S**2,1)=  0.75122D+00
+ E(PUHF)=      -0.75613776567D+02        E(PMP2)=      -0.75748189136D+02
+ ANorm=    0.1016912615D+01
+ E2 =    -0.1356733424D+00 EUMP2 =    -0.75746355197319D+02
+          Differentiating once with respect to electric field.
+                with respect to dipole field.
+          Electric field/nuclear overlap derivatives assumed to be zero.
+ Keep R1 and R2 ints in memory in canonical form, NReq=3319677.
+          There are     1 degrees of freedom in the 1st order CPHF.  IDoFFX=0 NUNeed=     1.
+ LinEq1:  Iter=  0 NonCon=     1 RMS=3.00D-03 Max=1.52D-02 NDo=     1
+ AX will form     1 AO Fock derivatives at one time.
+ LinEq1:  Iter=  1 NonCon=     1 RMS=8.91D-04 Max=4.69D-03 NDo=     1
+ LinEq1:  Iter=  2 NonCon=     1 RMS=2.81D-04 Max=1.38D-03 NDo=     1
+ LinEq1:  Iter=  3 NonCon=     1 RMS=4.75D-05 Max=2.51D-04 NDo=     1
+ LinEq1:  Iter=  4 NonCon=     1 RMS=4.76D-06 Max=1.98D-05 NDo=     1
+ LinEq1:  Iter=  5 NonCon=     1 RMS=6.69D-07 Max=3.36D-06 NDo=     1
+ LinEq1:  Iter=  6 NonCon=     1 RMS=1.23D-07 Max=5.83D-07 NDo=     1
+ LinEq1:  Iter=  7 NonCon=     1 RMS=1.37D-08 Max=7.98D-08 NDo=     1
+ LinEq1:  Iter=  8 NonCon=     1 RMS=1.13D-09 Max=6.78D-09 NDo=     1
+ LinEq1:  Iter=  9 NonCon=     1 RMS=1.31D-10 Max=6.08D-10 NDo=     1
+ LinEq1:  Iter= 10 NonCon=     0 RMS=1.84D-11 Max=8.19D-11 NDo=     1
+ Linear equations converged to 1.000D-10 1.000D-09 after    10 iterations.
+ End of Minotr F.D. properties file   721 does not exist.
+ End of Minotr F.D. properties file   722 does not exist.
+ End of Minotr F.D. properties file   788 does not exist.
+
+ **********************************************************************
+
+            Population analysis using the MP2 Density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --  -21.13878  -1.91493  -1.21955  -1.13391  -1.10054
+ Alpha virt. eigenvalues --   -0.12844  -0.04023   0.61196   0.64511   0.70785
+ Alpha virt. eigenvalues --    0.74890   0.91864   1.17666   1.49589   1.52444
+ Alpha virt. eigenvalues --    1.53121   2.11368   2.46405
+  Beta  occ. eigenvalues --  -21.09370  -1.75733  -1.18066  -1.04775
+  Beta virt. eigenvalues --   -0.31612  -0.11307  -0.03103   0.60805   0.73804
+  Beta virt. eigenvalues --    0.77883   0.84101   0.94443   1.22797   1.55668
+  Beta virt. eigenvalues --    1.59551   1.62921   2.18932   2.47762
+          Condensed to atoms (all electrons):
+               1          2          3
+     1  O    7.725781   0.223696   0.223696
+     2  H    0.223696   0.196666  -0.006949
+     3  H    0.223696  -0.006949   0.196666
+          Atomic-Atomic Spin Densities.
+               1          2          3
+     1  O    1.090362  -0.013444  -0.013444
+     2  H   -0.013444  -0.020120   0.001827
+     3  H   -0.013444   0.001827  -0.020120
+ Mulliken charges and spin densities:
+               1          2
+     1  O   -0.173174   1.063473
+     2  H    0.586587  -0.031736
+     3  H    0.586587  -0.031736
+ Sum of Mulliken charges =   1.00000   1.00000
+ Mulliken charges and spin densities with hydrogens summed into heavy atoms:
+               1          2
+     1  O    1.000000   1.000000
+ Electronic spatial extent (au):  <R**2>=             14.6516
+ Charge=              1.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0000    Y=             -0.0000    Z=             -2.3721  Tot=              2.3721
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -4.8400   YY=             -2.2677   ZZ=             -4.3897
+   XY=             -0.0000   XZ=             -0.0000   YZ=              0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -1.0075   YY=              1.5648   ZZ=             -0.5572
+   XY=             -0.0000   XZ=             -0.0000   YZ=              0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              0.0000  YYY=             -0.0000  ZZZ=             -1.7084  XYY=              0.0000
+  XXY=             -0.0000  XXZ=             -0.2946  XZZ=              0.0000  YZZ=             -0.0000
+  YYZ=             -1.8433  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=             -2.8100 YYYY=             -2.9225 ZZZZ=             -4.3837 XXXY=             -0.0000
+ XXXZ=             -0.0000 YYYX=             -0.0000 YYYZ=              0.0000 ZZZX=             -0.0000
+ ZZZY=              0.0000 XXYY=             -1.2881 XXZZ=             -1.2485 YYZZ=             -0.7882
+ XXYZ=              0.0000 YYXZ=             -0.0000 ZZXY=             -0.0000
+ N-N= 9.152944866370D+00 E-N=-1.934383515001D+02  KE= 7.569602793113D+01
+                          Isotropic Fermi Contact Couplings
+        Atom                 a.u.       MegaHertz       Gauss      10(-4) cm-1
+     1  O(17)              0.25014    -151.63648     -54.10767     -50.58049
+     2  H(1)              -0.01855     -82.92276     -29.58890     -27.66005
+     3  H(1)              -0.01855     -82.92276     -29.58890     -27.66005
+ --------------------------------------------------------
+       Center         ----  Spin Dipole Couplings  ----
+                      3XX-RR        3YY-RR        3ZZ-RR
+ --------------------------------------------------------
+     1   Atom        3.813179     -1.880761     -1.932419
+     2   Atom       -0.049770      0.070002     -0.020232
+     3   Atom       -0.049770      0.070002     -0.020232
+ --------------------------------------------------------
+                        XY            XZ            YZ
+ --------------------------------------------------------
+     1   Atom       -0.000000      0.000000      0.000000
+     2   Atom        0.000000     -0.000000     -0.155438
+     3   Atom        0.000000      0.000000      0.155438
+ --------------------------------------------------------
+
+
+ ---------------------------------------------------------------------------------
+              Anisotropic Spin Dipole Couplings in Principal Axis System
+ ---------------------------------------------------------------------------------
+
+       Atom             a.u.   MegaHertz   Gauss  10(-4) cm-1        Axes
+
+              Baa    -1.9324   139.828    49.894    46.642 -0.0000 -0.0000  1.0000
+     1 O(17)  Bbb    -1.8808   136.091    48.560    45.395  0.0000  1.0000  0.0000
+              Bcc     3.8132  -275.919   -98.455   -92.037  1.0000 -0.0000  0.0000
+ 
+              Baa    -0.1370   -73.080   -26.077   -24.377  0.0000  0.6005  0.7996
+     2 H(1)   Bbb    -0.0498   -26.555    -9.475    -8.858  1.0000 -0.0000  0.0000
+              Bcc     0.1867    99.635    35.552    33.235  0.0000  0.7996 -0.6005
+ 
+              Baa    -0.1370   -73.080   -26.077   -24.377 -0.0000 -0.6005  0.7996
+     3 H(1)   Bbb    -0.0498   -26.555    -9.475    -8.858  1.0000 -0.0000  0.0000
+              Bcc     0.1867    99.635    35.552    33.235  0.0000  0.7996  0.6005
+ 
+
+ ---------------------------------------------------------------------------------
+
+ 1\1\GINC-N001\SP\UMP2-FC\6-31G(d)\H2O1(1+,2)\JORGE\04-Feb-2021\0\\# UM
+ P2/6-31g(d) NoSymm 5D Density=Current\\Calculo de punto sencillo de H2
+ O^+1 a nivel de teoria UMP2/6-31G(d), optimizada geometricamente a niv
+ el de teoria B3LYP/6-311G(d,p)\\1,2\O,0,0.,0.,0.118665\H,0,0.,0.756944
+ ,-0.474661\H,0,0.,-0.756944,-0.474661\\Version=ES64L-G16RevB.01\HF=-75
+ .6106819\MP2=-75.7463552\PUHF=-75.6137766\PMP2-0=-75.7481891\S2=0.7566
+ 78\S2-1=0.751224\S2A=0.750026\RMSD=7.009e-09\Dipole=0.,0.,-0.933241\Qu
+ adrupole=-0.7490822,1.1633696,-0.4142874,0.,0.,0.\PG=C02V [C2(O1),SGV(
+ H2)]\\@
+
+
+ AND HERE I AM, FOR ALL MY LORE,
+ THE WRETCHED FOOL I WAS BEFORE.
+ CALLED MASTER OF ARTS, AND DOCTOR TO BOOT,
+ FOR TEN YEARS ALMOST I CONFUTE
+ AND UP AND DOWN, WHEREVER IT GOES
+ I DRAG MY STUDENTS BY THE NOSE --
+ AND SEE THAT FOR ALL OUR SCIENCE AND ART
+ WE CAN KNOW NOTHING.  IT BURNS MY HEART.
+
+                                       -- FAUST
+ Job cpu time:       0 days  0 hours  0 minutes 20.4 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  1.6 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Thu Feb  4 20:12:21 2021.

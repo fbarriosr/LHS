@@ -1,0 +1,299 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /opt/g16/l1.exe "/scratch/1505/Gau-454320.inp" -scrdir="/scratch/1505/"
+ Entering Link 1 = /opt/g16/l1.exe PID=    454321.
+  
+ Copyright (c) 1988-2017, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision B.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevB.01 20-Dec-2017
+                 4-Feb-2021 
+ ******************************************
+ %chk=H2Onodiffci_N+2.chk
+ %mem=32GB
+ %nprocshared=16
+ Will use up to   16 processors via shared memory.
+ -------------------------
+ # CISD/6-31g(d) NoSymm 5D
+ -------------------------
+ 1/38=1,172=1/1;
+ 2/12=2,15=1,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=1,8=1,11=9,25=1,30=1/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 8/6=3,9=120000,10=2/1,4;
+ 9//13;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/5=1,9=1/99;
+ ----------------------------------------------------------------------
+ Calculo de punto sencillo de H2O^-2 a nivel de teoria CISD/6-31G(d), o
+ ptimizada geometricamente a nivel de teoria B3LYP/6-311G(d,p)
+ ----------------------------------------------------------------------
+ Symbolic Z-matrix:
+ Charge = -2 Multiplicity = 1
+ O                     0.        0.        0.11867 
+ H                     0.        0.75694  -0.47466 
+ H                     0.       -0.75694  -0.47466 
+ 
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.118665
+      2          1           0        0.000000    0.756944   -0.474661
+      3          1           0        0.000000   -0.756944   -0.474661
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.961769   0.000000
+     3  H    0.961769   1.513888   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O(2-)
+ Framework group  C2V[C2(O),SGV(H2)]
+ Deg. of freedom     2
+ Full point group                 C2V     NOp   4
+ Rotational constants (GHZ):         801.9747679         437.5972249         283.1154099
+ Standard basis: 6-31G(d) (5D, 7F)
+    18 basis functions,    36 primitive gaussians,    19 cartesian basis functions
+     6 alpha electrons        6 beta electrons
+       nuclear repulsion energy         9.1529448664 Hartrees.
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned off.
+ One-electron integrals computed using PRISM.
+ NBasis=    18 RedAO= T EigKep=  6.30D-02  NBF=    18
+ NBsUse=    18 1.00D-06 EigRej= -1.00D+00 NBFU=    18
+ ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  205 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Keep R1 ints in memory in canonical form, NReq=3304514.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RHF) =  -75.2783711534     A.U. after   11 cycles
+            NFock= 11  Conv=0.42D-08     -V/T= 1.9782
+ ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV=-2 UseB2=F ITyADJ=14
+ ICtDFT= 12500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ Range of M.O.s used for correlation:     2    18
+ NBasis=    18 NAE=     6 NBE=     6 NFC=     1 NFV=     0
+ NROrb=     17 NOA=     5 NOB=     5 NVA=    12 NVB=    12
+ Semi-Direct transformation.
+ ModeAB=           2 MOrb=             5 LenV=    4294789909
+ LASXX=         4915 LTotXX=        4915 LenRXX=        4915
+ LTotAB=        5895 MaxLAS=       16150 LenRXY=       16150
+ NonZer=       18445 LenScr=      785920 LnRSAI=           0
+ LnScr1=           0 LExtra=           0 Total=       806985
+ MaxDsk=          -1 SrtSym=           F ITran=            3
+ JobTyp=0 Pass  1:  I=   1 to   5.
+ (rs|ai) integrals will be sorted in core.
+ Spin components of T(2) and E(2):
+     alpha-alpha T2 =       0.8413138280D-02 E2=     -0.2967915879D-01
+     alpha-beta  T2 =       0.5753774437D-01 E2=     -0.1577052095D+00
+     beta-beta   T2 =       0.8413138280D-02 E2=     -0.2967915879D-01
+ ANorm=    0.1036515326D+01
+ E2 =    -0.2170635271D+00 EUMP2 =    -0.75495434680521D+02
+ Keep R2 and R3 ints in memory in canonical form, NReq=3321714.
+ CIDS: In Core Option IDoMem=           1.
+ Iterations=  50 Convergence= 0.100D-06
+ Iteration Nr.   1
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ E3=       -0.72775195D-02        EUMP3=      -0.75502712200D+02
+ DE(CI)=     -0.20833255     E(CI)=       -75.486703705    
+ NORM(A)=   0.10368544D+01
+ Iteration Nr.   2
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21316196     E(CI)=       -75.491533112    
+ NORM(A)=   0.10419345D+01
+ Iteration Nr.   3
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21455273     E(CI)=       -75.492923883    
+ NORM(A)=   0.10440114D+01
+ Iteration Nr.   4
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21504505     E(CI)=       -75.493416200    
+ NORM(A)=   0.10445632D+01
+ Iteration Nr.   5
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21509763     E(CI)=       -75.493468781    
+ NORM(A)=   0.10446247D+01
+ Iteration Nr.   6
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21509713     E(CI)=       -75.493468286    
+ NORM(A)=   0.10446310D+01
+ Iteration Nr.   7
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21509696     E(CI)=       -75.493468112    
+ NORM(A)=   0.10446317D+01
+ Iteration Nr.   8
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21509729     E(CI)=       -75.493468445    
+ NORM(A)=   0.10446314D+01
+ Iteration Nr.   9
+ **********************
+ DD1Dir will call FoFMem   1 times, MxPair=        30
+ NAB=    15 NAA=     0 NBB=     0.
+ DE(CI)=     -0.21509720     E(CI)=       -75.493468348    
+ NORM(A)=   0.10446312D+01
+ Wavefunction amplitudes converged. E(Corr)=     -75.493468348    
+ ***************************************************************
+ Dominant configurations:
+ ***********************
+ Spin Case        I    J    A    B          Value
+   ABAB           6    6    7    7      -0.194273D+00
+ Largest amplitude= 1.94D-01
+ Discarding MO integrals.
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --  -19.86431  -0.67834  -0.02407   0.06134   0.15504
+ Alpha  occ. eigenvalues --    0.51599
+ Alpha virt. eigenvalues --    0.85016   1.66210   1.78419   1.78430   1.83647
+ Alpha virt. eigenvalues --    2.00963   2.29260   2.67003   2.68331   2.71291
+ Alpha virt. eigenvalues --    3.27924   3.59093
+          Condensed to atoms (all electrons):
+               1          2          3
+     1  O   12.263186  -1.838232  -1.838232
+     2  H   -1.838232   2.523235   1.021637
+     3  H   -1.838232   1.021637   2.523235
+ Mulliken charges:
+               1
+     1  O   -0.586721
+     2  H   -0.706639
+     3  H   -0.706639
+ Sum of Mulliken charges =  -2.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  O   -2.000000
+ Electronic spatial extent (au):  <R**2>=             41.4534
+ Charge=             -2.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0000    Y=              0.0000    Z=              3.4100  Tot=              3.4100
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -12.8173   YY=            -18.4049   ZZ=            -16.3246
+   XY=              0.0000   XZ=             -0.0000   YZ=             -0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              3.0316   YY=             -2.5560   ZZ=             -0.4757
+   XY=              0.0000   XZ=             -0.0000   YZ=             -0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=             -0.0000  YYY=              0.0000  ZZZ=             10.5500  XYY=             -0.0000
+  XXY=              0.0000  XXZ=              2.7232  XZZ=             -0.0000  YZZ=              0.0000
+  YYZ=              6.3545  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -14.1760 YYYY=            -45.6115 ZZZZ=            -30.2549 XXXY=             -0.0000
+ XXXZ=              0.0000 YYYX=             -0.0000 YYYZ=             -0.0000 ZZZX=              0.0000
+ ZZZY=             -0.0000 XXYY=             -9.1318 XXZZ=             -7.1962 YYZZ=            -13.4248
+ XXYZ=             -0.0000 YYXZ=              0.0000 ZZXY=              0.0000
+ N-N= 9.152944866370D+00 E-N=-2.061505928933D+02  KE= 7.695666782844D+01
+ 1\1\GINC-N001\SP\RCISD-FC\6-31G(d)\H2O1(2-)\JORGE\04-Feb-2021\0\\# CIS
+ D/6-31g(d) NoSymm 5D\\Calculo de punto sencillo de H2O^-2 a nivel de t
+ eoria CISD/6-31G(d), optimizada geometricamente a nivel de teoria B3LY
+ P/6-311G(d,p)\\-2,1\O,0,0.,0.,0.118665\H,0,0.,0.756944,-0.474661\H,0,0
+ .,-0.756944,-0.474661\\Version=ES64L-G16RevB.01\HF=-75.2783712\MP2=-75
+ .4954347\MP3=-75.5027122\CISD=-75.4934683\RMSD=4.166e-09\PG=C02V [C2(O
+ 1),SGV(H2)]\\@
+
+
+ DEPRESSION IS WAITING FOR YOUR SHIP TO COME IN,
+ AND FINDING OUT IT'S THE TITANIC.
+ Job cpu time:       0 days  0 hours  0 minutes 12.3 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  1.0 seconds.
+ File lengths (MBytes):  RWF=     13 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Thu Feb  4 21:11:15 2021.
