@@ -1,6 +1,8 @@
 ## LHS
 
-Es un proyecto "UNIX" para automatizar las rutinas del software Gaussian. Debido a que este presenta una sintaxis compleja para los usuarios no habituados a la programación, lo cual lleva a errores y a perdida de tiempo en entender cómo utilizar el programa.
+Genera archivos .cub visualizables con el programa GaussView o cualquier otro capaz de leer archivos .cub provenientes de Gaussian. Corresponden a los campos escalares de la hiperblandura local así como de sus dos componentes. Por cada sistema molecular, requiere como alimentación de al menos cinco archivos .fchk correspondientes al sistema con N, N+1, N+2, N-1, N-2. Si el grado de degeneración en orbitales de frontera LUMO y HOMO es superior a 2, también requiere como alimentación de los archivos .log correspondientes al sistema con N+p y N-q electrones, siendo p>2 y q>2.
+Utilizable solo en servidores con sistema operativo Linux y siempre tenga instalados y operativos
+los programas Gaussian y sus complementarios cubegen y cubman.
 
 ## Requerimientos
 
