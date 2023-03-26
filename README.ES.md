@@ -17,7 +17,7 @@ cubegen y cubman.
 
 Requiere servidor con los software cubegen y cubeman de Gaussian.
 
-## Installation
+## Instalación
 
 Copia la carpeta LHS en tu cuenta del servidor. 
 ```
